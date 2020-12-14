@@ -35,3 +35,4 @@ steps:
     csmFile: 'rhelvm_db2.json'
     csmParametersFile: 'parameter.json'
     deploymentMode: 'Incremental'
+
