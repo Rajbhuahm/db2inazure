@@ -37,7 +37,7 @@
       "type": "string"
     },
     "location": {
-      "defaultValue": "norwayeast",
+      "defaultValue": "northeurope",
       "type": "string"
     },
     "img_publisher": {
