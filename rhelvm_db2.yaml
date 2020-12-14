@@ -26,13 +26,12 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Free Trial (d85d014d-f26a-4dc7-be57-8b31b72b3247)'
-    subscriptionId: 'd85d014d-f26a-4dc7-be57-8b31b72b3247'
+    azureResourceManagerConnection: 'Free Trial(b8c23c63-ac2e-438b-b80c-c0f76c1b2f71)'
+    subscriptionId: 'b8c23c63-ac2e-438b-b80c-c0f76c1b2f71'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'db2'
+    resourceGroupName: 'newdb2'
     location: 'North Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'rhelvm_db2.json'
     csmParametersFile: 'parameter.json'
     deploymentMode: 'Incremental'
-
